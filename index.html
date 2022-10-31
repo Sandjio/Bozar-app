@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bozar app</title>
     <link rel="stylesheet" href="./css/output.css"> <!--Main stylesheet-->
-    <!-- Font awesome icons -->
-    <script src="https://kit.fontawesome.com/dd8b004c53.js" crossorigin="anonymous"></script>
     <!-- Boostrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- Google Fonts -->
@@ -17,7 +15,7 @@
 </head>
 <body>
 
-    <nav class="container flex flex-row w-screen min-w-full px-0 bg-lightWhite items-center justify-around">
+    <nav class="container flex flex-row w-screen min-w-full px-0 bg-lightWhite items-center justify-around sticky top-0 z-50">
         <!-- logo -->
         <div class="p-5">
             <img src="#" alt="my logo">
@@ -35,20 +33,21 @@
             <!-- Search Bar,signup and signin button -->
             <div class="flex mx-1 space-x-6">
                 <input class="rounded-full" type="text" placeholder="search here...">
-                <input class="bg-lightCream px-6 py-2 text-white rounded-full hover:bg-brightRedLight cursor-pointer" type="button" value="Log in">
-                <input class="px-6 py-2 rounded-full text-white bg-deepBlue hover:bg-brightRedLight cursor-pointer" type="button" value="Sign up">
+                <button class="bg-lightCream px-6 py-2 text-white rounded-full hover:bg-brightRedLight cursor-pointer" type="button" target="_blank">Log in</button>
+                <button class="px-6 py-2 rounded-full text-white bg-deepBlue hover:bg-brightRedLight cursor-pointer" type="button" target="_blank">Sign up</button>
             </div>
     </nav>
 
-    <main>
+    <main class="container-full relative">
         <!-- hero section -->
         <section id="hero">
             
-            <div class="container-full bg-lightWhite">
-
+            
+            <div class="container-full bg-lightWhite pt-20 pl-20">
+                
                 <div class="flex flex-col mb-32 space-y-6 md:w-1/2">
                     <h1 class="max-w-md text-3xl font-bold text-center md:text-5xl md:text-left">Hire a <span class="text-lightBlue">Talented Freelancer</span> any time for any job with us together.</h1>
-                    <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus animi corporis id possimus maxime. Fugit omnis error rem enim officiis. Quisquam porro asperiores earum, assumenda minus corrupti praesentium in repellendus..</p>
                 </div>
 
                 <div class="flex space-x-6">
@@ -65,8 +64,12 @@
                     </div>
     
                 </div>
-            </div>
 
+                <div class=" heroImage flex w-1/2">
+                    <img class="shadow-slate-500 shadow-lg rounded-[24px]" src="./img/AdobeStock_271130535.jpeg" alt="">
+                </div>
+            </div>
+            
         </section>
 
     </main>
