@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroImage {
+    
+    margin: -44% 0 0 40%;
+    position: absolute;
+}
