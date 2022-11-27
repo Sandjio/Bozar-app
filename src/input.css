@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroImage {
+    
+    margin: -44% 0 0 40%;
+    position: absolute;
+}
+
+
+
+.loginBox {
+    margin: 126px 0 0 126px;
+}
+
+.eye_1 {
+    position: absolute;
+    top: 384px;
+    left: 468px;
+    cursor: pointer;
+}
+.eye_2 {
+    position: absolute;
+    top: 384px;
+    left: 468px;
+    cursor: pointer;
+}
+
+.forgotPassword {
+    margin-left: 78px;
+}
+
+.signin-with-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- Font awesome icon -->
+    <script src="https://kit.fontawesome.com/dd8b004c53.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
 </head>
 <body>
+    <main class="container-full flex flex-row">
+        <!-- Login Section -->
+        <section class="loginSection w-1/2">
+            <form action="#" method="post" >
+
+                <div class="loginBox">
+                    
+                                <div>
+                                    <h1 class="text-4xl font-bold">Welcome back</h1>
+                                    <p class="text-darkGrayishBlue pb-8 pt-2 font-bold">Welcome back! Please enter your details.</p>
+                                </div>
+                    
+                                <div class="">
+                                    <div class="flex flex-col">
+                                        <label class="font-bold mb-1" for="email">Email</label>
+                                        <input class="border-2 border-darkGrayishBlue px-6 py-2 w-96 rounded-lg mb-10" type="text" name="email" id="email" placeholder="Enter your email">
+                        
+                                        <label class="font-bold mb-1" for="password">Password</label>
+                                        <!-- TODO: Insert a show password -->
+                                        <input class="pass border-2 border-darkGrayishBlue px-6 py-2 w-96 rounded-lg mb-5" type="password" name="password" id="password" placeholder="Enter your password"><i class="fa-solid fa-eye-slash eye_1"></i>
+                                        <i class="fa-solid fa-eye eye_2"></i>
+                                        
     
+                                    </div>
+                                    <div>
+                                        <input type="checkbox">
+                                        <label class=" font-bold text-sm" for="checkbox">Remember me for 30 days</label>
+                    
+                                        <a class="forgotPassword font-bold text-sm" href="#">Forgot password</a>
+                                    </div>
+                    
+                                    <div class="flex flex-col my-10">
+                                        <button href="#" class="bg-black text-white w-96 rounded-md px-6 py-3 mb-2 font-bold" type="submit">Sign in</button>
+                                        <button class="signin-with-google bg-white text-black border-2 w-96 border-darkGrayishBlue rounded-md px-6 py-3 font-bold" type="submit"><img src="../resources/icons8-google-48.png" class="w-8 pr-2" alt="">Sign in with google</button>
+                                    </div>
+                                </div>
+    
+                </div>
+            </form>
+        </section>
+
+        <!-- Caroussel Section -->
+        <!-- <section class="carousselSection bg-black w-1/2"></section> -->
+        <!-- <i class="fa fa-eye-slash eye_1 "></i> -->
+    </main>
 </body>
 </html>
